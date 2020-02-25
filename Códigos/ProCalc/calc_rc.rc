@@ -1,0 +1,41 @@
+#include "calc.h"
+
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "calc.ico"
+
+CalcMenu MENU {
+	POPUP "&file"{
+		MENUITEM "&new\tCtrl+N", New
+		MENUITEM "&open...\tCtrl+O", open
+		MENUITEM "&save\tCtrl+S", save
+		MENUITEM "&save as...\tCtrl+Shift+S", saveas
+		MENUITEM SEPARATOR
+		MENUITEM "&quit\tQ", quit
+	}
+	
+	POPUP "&edit"{
+		MENUITEM "&undo\tCtrl+Z", undo
+		MENUITEM "&copy\tCtrl+C", copy
+		MENUITEM "&cut\tCtrl+X", cut
+		MENUITEM "&paste\tCtrl+V", paste
+		MENUITEM "&conversor\tCtrl+G", conversor
+		MENUITEM "&clear\tCtrl+L", clear
+	}
+	
+	POPUP "&run"{
+		MENUITEM "&load\tF7", load
+		MENUITEM "&run\tF8", run
+	}
+	
+	POPUP "&view", GRAYED
+	{
+		MENUITEM SEPARATOR 
+		MENUITEM SEPARATOR
+		MENUITEM "&reset views", reset
+	}
+	
+	POPUP "&help"{
+		MENUITEM "&about...\tF9", about
+	}
+}
+
+

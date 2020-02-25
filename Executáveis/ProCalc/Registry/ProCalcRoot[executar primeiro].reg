@@ -1,0 +1,31 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\ProCalc.calc]
+@="Arquivo de Formulas do ProCalc"
+
+[HKEY_CLASSES_ROOT\ProCalc.calc\DefaultIcon]
+@="C:\\ProCalc\\ProCalc.exe"
+
+[HKEY_CLASSES_ROOT\ProCalc.calc\shell]
+
+[HKEY_CLASSES_ROOT\ProCalc.calc\shell\Open]
+@="&Abrir"
+
+[HKEY_CLASSES_ROOT\ProCalc.calc\shell\Open\command]
+@="C:\\ProCalc\\ProCalc.exe %1"
+
+[HKEY_CLASSES_ROOT\ProCalc.calc\shell\Edit]
+@="&Editar"
+
+[HKEY_CLASSES_ROOT\ProCalc.calc\shell\Edit\command]
+@="C:\\Program Files\\Notepad++\\notepad++.exe %1"
+
+[HKEY_CLASSES_ROOT\.math]
+@="ProCalc.calc"
+"Content Type"="text/math"
+"ProCalc.bak"="ProCalc.calc"
+"PerceivedType"="text"
+
+[HKEY_CLASSES_ROOT\.math\OpenWithProgids]
+@="ProCalc.calc"
+"ProCalc.calc"=hex:

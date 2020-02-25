@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math\OpenWithList]
+@="ProCalc.exe"
+"a"="ProCalc.exe"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math\OpenWithProgids]
+@="ProCalc.calc"
+"ProCalc.calc"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math\UserChoice]
+@="ProCalc.calc"
+"Progid"="ProCalc.calc"

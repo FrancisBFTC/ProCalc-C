@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+- [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math\OpenWithList]
+- [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math\OpenWithProgids]
+- [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math\UserChoice]
+- [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.math]
+- [HKEY_CLASSES_ROOT\ProCalc.calc\DefaultIcon]
+- [HKEY_CLASSES_ROOT\ProCalc.calc\shell\Open\command]
+- [HKEY_CLASSES_ROOT\ProCalc.calc\shell\Open]
+- [HKEY_CLASSES_ROOT\ProCalc.calc\shell\Edit\command]
+- [HKEY_CLASSES_ROOT\ProCalc.calc\shell\Edit]
+- [HKEY_CLASSES_ROOT\ProCalc.calc\shell]
+- [HKEY_CLASSES_ROOT\ProCalc.calc]
+- [HKEY_CLASSES_ROOT\.math\OpenWithProgids]
+- [HKEY_CLASSES_ROOT\.math]
+
